@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saavu Sivulle CSS</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="../css/tablet.css">
+    <link rel="shortcut icon" href="https://myy.haaga-helia.fi/~bfg683/digi/favicon.ico" />
+    <script style="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="site-header">
+        Astu saavutettavuuden maailmaan: CSS
+            <ul>
+            <li><a href="../index.html" class="site-header">Etusivu</a></li>
+            <li><a href="html_page.html" class="site-header">HTML</a></li>
+            <li><a href="js_page.html" class="site-header">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <main class="site-main">
+   
+        
+    <div class="esittely">
+        <h4 class="flex-item">TOINEN TEHTÄVÄ...</h4>
+        <p class="flex-item">Lämmittely on ohi, nyt mennään syvemmälle.</p>
+        </div>
+        <hr style="color: #516AA6">
+        
+    <div class="flex-container">
+        <div class="flex-item"> 
+            <img src="../kuvat/welho.png" width="300" alt="Velho">
+        </div>
+        <div class="flex-item">    
+        <h3 class="flex-item">Tämän sivun kysymys: MILLAINEN?</h3>
+            <p class="flex-item">CSS:n avulla päätät, miltä sivusi näyttää. Minkä värinen tausta on, miten suurta tekstiä luet ja miten hyvältä kaikki sivulla näyttää. Mitä Fronttirontti nyt voisi tehdä? </p>
+            
+            <p class="flex-item">Osaatko erottaa toisistaan vihreän ja punaisen värin? Miehistä 8 % ja naisista 0,5 % ei osaa, ja tutkimusten mukaan jopa 40 % kyseessä olevista miehistä ei edes tiedosta tätä ominaisuuttaan.</p>
+            <p class="flex-item">Värinäön heikkous johtuu siitä, että verkkokalvon tappisolut eivät toimi ihan odotetulla tavalla. Tämä on synnynnäinen ominaisuus, minä Digiwelho <em>en</em> ole sitä taikonut kenellekään!</p>
+            <p class="flex-item">Huomasitko, että näillä sivuilla tehtiin virhe punaisen ja vihreän värin kanssa? Aivan, ne painonapit: </p>
+        </div>
+    </div>
+    <br>
+    <div class="flex-container">
+        <div class="flex-item"><img src="../kuvat/green_button.png" width="80" height="80" alt="Vihreä nappi">
+        <img src="../kuvat/empty_button_space.png" width="80" height="80" alt="Tyhjä tila, tässä ei tapahdu mitään">
+        <img src="../kuvat/red_button.png" width="80" height="80" alt="Punainen nappi">
+        </div>
+    </div>
+        
+    <div class="flex-container">
+         <div class="flex-item">    
+            <p>Ne eivät nyt tee mitään, joten mitäpä jos jätetään ne kokonaan rauhaan.</p>
+        </div>
+        <div class="flex-item">
+            <p>Etkö halua? Haluat korjata tilanteen? Mitähän niille sitten pitäisi tehdä? Laitetaanko nyt vaikka mustavalkoisiksi?</p>
+        </div>
+        <div class="flex-item"><img src="../kuvat/bw_old_green_button.png" width="80" height="80" alt="Mustavalkoinen entinen vihreä nappi">
+        <img src="../kuvat/empty_button_space.png" width="80" height="80" alt="Tyhjä tila, tässä ei tapahdu mitään">
+        <img src="../kuvat/bw_old_red_button.png" width="80" height="80" alt="Mustavalkoinen entinen punainen nappi">
+        </div>
+    </div>       
+
+        <div class="flex-item"><p>Eivät ne vieläkään tee mitään, mutta muista miettiä painonappien värejä, kun seuraavan kerran haet niitä kuvapankista!</p></div>
+    
+        
+        <div class="flex-item"><p>Tämähän toimii kuin Mordorin vessa. Mennään ennen kuin Fronttirontti näkee meidät!</p></div>
+        <div class="center">
+            <a href="js_page.html">
+                <img src="../kuvat/arrow-27316_1280.png" width="200" alt="nuoli" id="nuoli"></a>
+        </div>
+        
+        <p style="margin-top: 1000px; margin-bottom: 50px; text-align: center;">Mitä teet täällä, oi ritari? Etkö uskonut minua?<br>
+                Nyt joudut kokemaan rangaistuksen...</p>
+        <div class="flex-item">     
+            <button type="button" onclick="showElem()">Näytä kuva</button>
+            <button type="button" onclick="hideElem()">Piilota kuva</button>
+        </div>    
+        <br>
+        <img id="myImg" src="../kuvat/rontti.png" width="100%" style="visibility: hidden">
+        <br>
+         
+        <script>
+        function hideElem() {
+          document.getElementById("myImg").style.visibility = "hidden";
+            alert("Rangaistuksesi oli hetki naurettavaa Javascriptiä! Mene ylös ja paina nuolta seuraavalle sivulle!");
+        }
+
+        function showElem() {
+          document.getElementById("myImg").style.visibility = "visible"; 
+        }
+        </script>  
+
+    </main>
+    
+    <footer class="site-footer"> 
+        <div class="flex-container">
+            <div class="flex-item"><a target="_blank" href="saavutettavuusseloste_page.html">Saavutettavuusseloste</a></div>       
+
+        </div>  
+    </footer> 
+    
+</body>
+</html>

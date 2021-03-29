@@ -1,0 +1,153 @@
+
+.site-header {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #516AA6;
+    font-family: "Open Sans","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-size: 1.675rem;
+    color: #fff;
+}
+
+.site-main {
+    /* Jätetty pois display: inline-block */
+    /* text-align: left; */
+    
+    padding: 5;
+    justify-content: center;
+    background-color: white;
+    font-family: "Open Sans","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-size: 1.675rem;
+}
+
+.site-footer {
+    padding: 1.25rem 0;
+    background: #516AA6;
+    color: #fff;
+    font-family: "Open Sans","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-size: 1.675rem;
+    letter-spacing: .0875rem;
+}
+
+.esittely {
+    background-color: white;
+    font-size: 1.5em;
+    font-family: serif;
+    text-align: justify-all;
+    display: inline; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    max-width: 100%;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%;
+    width: 50%;
+}
+
+/* Ei tarvita tässä vaiheessa
+.flex-item-knight {
+    flex: 1;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    max-width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+} 
+*/
+
+.flex-ib {
+    display: inline-flex;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-family: serif;
+    width: 60%;
+}
+nav, ul {
+    padding-left: 30px;
+    padding-bottom: 10px; 
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    font-size: 1.8rem; 
+}
+
+a {color: black; text-decoration:underline;}
+
+a:active {color: darkblue;}
+a:hover {color: darkblue;}
+
+code {
+    color: black;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 1px 4px;
+}
+
+
+.testi-header {
+    padding: 20px;
+    text-align: left;
+    background-color: #950ff7;
+    font-family: "Open Sans","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-size: 1.675rem;
+    color: rgba(229, 229, 191, 0.84);
+}
+
+.testi-main {
+    display: inline-block;
+    width: 100%;
+    padding: 5;
+    text-align: left;
+    background-color: coral;
+    font-family: sans-serif;
+    font-size: 12;
+    color: azure;
+}
+
+.testi-footer {
+    padding: 1.25rem 0;
+    background: #950ff7;
+    color: #ea1b1b;
+    font: Arial;
+    font-size: 1.675rem;
+    letter-spacing: .0875rem;
+}
+
+.testi-esittely {
+    background-color: #fcf207;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+@media only screen and (max-width: 420px) {
+    {flex-wrap: wrap; text-align: center;}
+}
+
+
+
+
+
+
+
