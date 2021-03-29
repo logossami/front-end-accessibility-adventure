@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saavu Sivulle HTML</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="../css/tablet.css">
+    <link rel="shortcut icon" href="https://myy.haaga-helia.fi/~bfg683/digi/favicon.ico" />
+    <script style="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="testi-header">
+        Täältä ei noin vain liikutakaan, koska navigointikin on vähän sekaisin. Jos lähdet, et ehkä pääse tälle sivulle helposti takaisin.
+            <ul>
+            <li><a href="/index.html">Etusivu</a></li>
+            <li><a href="html_page.html">HTML</a></li>
+            <li><a href="css_page.html">CSS</a></li>
+            <li><a href="js_page.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <main class="testi-main">
+
+                
+    <div>
+        <h1>OI EI!</h1>
+        <p>Tällä sivulla on monta asiaa pielessä... ainakin viisi. Ei hyvältä näytä. Tarvitsen apuasi!</p>
+        <img src="../kuvat/welho.png"> <!-- Katso vaikka, ei ole alt-tekstiä! -->
+        <h1>Korjataan virheet!</h1>
+        <ol>
+            <li><p>Sivu ei ole alkuunkaan responsiivinen. Käytetäänkö Flexboxia? No käytetään. Ja ensi kerralla Gridiä.</p></li>
+            <li><p>Kuvassa ei ole alt-tekstiä (kokeile vaikka Dev Toolsilla), paha paha saavutettavuuden kannalta. Eiköhän laiteta päälle? Kiitos, laitan heti huomenna.</p></li>
+            <li><p>Kontrasti on huono. Se voisi olla paljon huonompikin mutta saat sentään tästä selvää. Osaat varmaan jo korjata sen.</p></li>
+            <li><p>Fontti: muutetaan sans-serif serifiksi, eli väkäsiä mukaan kirjaimiin. Tutkimusten mukaan niin on parempi. 😁</p></li>
+            <li><p>Fonttikoko on kiinteä: auts. Ja vielä 12. Vinkki: katso muuten HTML-lähteen kommentti! <!-- Katsopa oikealla CSS-ikkunaa, luokkana .testi-main. Näet varmaan font-sizen? --> Muista siis <code>em</code>. Tai joskus <code>rem</code> (ei se bändi). Yhtä oikeaa kirjasinkokoa ei ole, mutta yleisesti 16 lienee aika sopiva.</p></li>
+            <li><p>Tähän piti tulla vielä Javascript-virhe, mutta taisin sanoa aiemmin, a) ettemme tee Javascriptiä ja b) että virheitä on viisi. </p></li>
+        </ol>
+        <p>Tässä se siis oli...</p>
+    </div>
+     <div id="jatko"><br>
+            <p style="margin-top: 300px; margin-bottom: 100px; text-align: center;">Olet tehnyt hyvää työtä, oi ritari... nyt on aika palkita vaivasi.</p>
+        </div>
+        
+        <div class="center"><img src="../kuvat/ritari.png" width="200" alt="Ritari"></div>
+        <div class="flex-item"><p style="margin-top: 100px; margin-bottom: 100px; text-align: center; color: black; font-size: 1.8em; font-family: serif;">Kaikki näyttää jo paljon paremmalta! Tekstikin kasvoi takaisin. Jatketaan siis, ystäväni. Klikkaa nuolta ja avaa viimeinen ovi... </p></div>        
+        <div class="center">
+            <a href="palkinto_page.html">
+                <img src="../kuvat/arrow-27316_1280.png" width="200" alt="nuoli" id="nuoli"></a>
+        </div>
+    </main>
+    
+    <footer class="testi-footer"> 
+        <div class="flex-container">
+            <div class="flex-item"><a target="_blank" href="saavutettavuusseloste_page.html">Saavutettavuusseloste</a></div>       
+
+        </div>  
+    </footer> 
+    
+</body>
+</html>
