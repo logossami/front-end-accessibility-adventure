@@ -10,4 +10,4 @@ The story is very much tongue-in-cheek, a classic tale of good vs. evil, knights
 
 The pictures are open source and their links should be visible in the material. But, alas, the story is in Finnish, I am sorry for that! :)
 
-The version here is not without errors, there's at least a couple of them. I acknowledge any feedback and suggestions to improve the material!
+I acknowledge any feedback and suggestions to improve the material.
